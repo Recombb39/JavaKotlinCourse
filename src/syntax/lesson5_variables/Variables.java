@@ -47,29 +47,5 @@ public class Variables {
         System.out.println("The variableNum: " + variableNum);
         System.out.println("The firstNumber: " + firstNumber);
         System.out.println("The secondNumber: " + secondNumber);
-
-        //casting - приведение типов
-        //byteNumber = 127
-        //Это неявный casting (приведение типов), то есть данные не теряются, так как byte имеет
-        //диапазон byte -128..127, а short -32768..32767
-        //byte полностью помещается в short
-        short varForCasting = byteNumber;
-        System.out.println("After casting varForCasting: " + varForCasting);
-
-        int intNewVar = varForCasting;
-        System.out.println("After casting intNewVar: " + intNewVar);
-
-        //явноеприведение типов
-        //В этом участке кода происходит потеря данных потому как
-        //значение типа int не вмещается в тип byte
-        int intVariable = 6_000_012;
-        byte byteNewVariable = (byte) intVariable;
-        System.out.println("After casting byteNewVariable: " + byteNewVariable);
-
-        var doubleVar = 4.18;
-        //casting так как мы явно приводит к типу (int)
-        int newInteger = (int) doubleVar;
-        System.out.println("After casting newInteger: " + newInteger);
-
     }
 }
