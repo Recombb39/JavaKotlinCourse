@@ -1,11 +1,11 @@
-package syntax;
+package syntax.lesson2_comments;
 
 /**
  * @author Aleksej Gorbenko
  * @version 07.11.2026
  * */
 
-//this syntax.Main class
+//this syntax.lesson1.Main class
 public class Main {
     //this method "main" is entry point to uor program
     public static void main(String[] args) {
@@ -15,7 +15,7 @@ public class Main {
          print string
          with greeting
         */
-        System.out.println("My name is Alexsey!");
+        System.out.println("My name is Aleksej!");
 
     }
 }
